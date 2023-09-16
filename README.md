@@ -1,11 +1,14 @@
 
 Chandler Bryant
 
-[Here is the prompt that was given to me for this project:]((https://github.com/Cbryant123/MedSched/blob/main/images/prompt.png?raw=true))
+Here is the Prompt given to me for the project:
+
+![Prompt Image](https://github.com/Cbryant123/MedSched/blob/main/images/prompt.png?raw=true)
 
 Example images of the site in use can be found in the Documentation.pdf
 
-**Project- Documentation**
+
+**Project - Documentation**
 
 
 
