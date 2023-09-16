@@ -2,7 +2,7 @@
 
 Chandler Bryant
 
-**HOW TO RUN/SETUP:  **
+**HOW TO RUN/SETUP:**
 
 - Download and install xampp, and setup php and sql.
 
