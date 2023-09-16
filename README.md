@@ -1,7 +1,13 @@
-Here is the prompt that was given to me for this project: [GitHub Logo](https://path_to_your_image_on_github.png)
-**Project- Documentation**
 
 Chandler Bryant
+
+[Here is the prompt that was given to me for this project:]([https://path_to_your_image_on_github.png](https://github.com/Cbryant123/MedSched/blob/main/images/prompt.png?raw=true))
+
+Example images of the site in use can be found in the Documentation.pdf
+
+**Project- Documentation**
+
+
 
 **HOW TO RUN/SETUP:**
 
