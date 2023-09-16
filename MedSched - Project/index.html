@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Main Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Check Up!</h1>
+  </header>
+  
+  <main>
+    <div class="container">
+      <a href="login.html">Login</a>
+      <a href="register.html">Register</a>
+    </div>
+  </main>
+
+  <div class="install-link">
+    <a href="install.php">Click here to run the installation script for the Tables & Database!!!</a>
+  </div>
+
+  <script>
+    fetch('dummy_data/dummy_users.php')
+        .then(response => response.text())
+        .then(result => {
+            console.log(result); // Display the result in the browser console
+            fetch('dummy_data/dummy_messages.php')
+                .then(response => response.text())
+                .then(result => {
+                    console.log(result); // Display the result in the browser console
+                    fetch('dummy_data/dummy_meetings.php')
+                        .then(response => response.text())
+                        .then(result => {
+                            console.log(result); // Display the result in the browser console
+                            fetch('dummy_data/dummy_schedule.php')
+                                .then(response => response.text())
+                                .then(result => {
+                                    console.log(result); // Display the result in the browser console
+                                })
+                                .catch(error => console.log(error));
+                        })
+                        .catch(error => console.log(error));
+                })
+                .catch(error => console.log(error));
+        })
+        .catch(error => console.log(error));
+</script>
+
+
+
+</body>
+</html>

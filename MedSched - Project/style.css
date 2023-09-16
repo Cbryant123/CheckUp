@@ -1,0 +1,196 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  margin: 20px;
+}
+
+.column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  max-width: 400px;  /* adjust this value to your liking */
+  width: 15%;
+  margin-bottom: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="date"], input[type="time"], select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;  /* Increase padding for the input fields */
+  box-sizing: border-box;
+  border: 1px solid #ddd;  /* Add border to the input fields */
+  border-radius: 4px;  /* Add border radius to the input fields */
+}
+
+button {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;  /* Add border radius to the button */
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;  /* Increase bottom margin for the list items */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;  /* Add padding for the list items */
+  border-bottom: 1px solid #ddd;  /* Add bottom border for the list items */
+}
+
+button {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+}
+
+a {
+display: inline-block;
+background-color: #333;
+color: #fff;
+padding: 15px 10px;
+margin: 10px;
+text-decoration: none;
+border-radius: 3px;
+}
+
+a:hover {
+background-color: #555;
+}
+
+#availabilities-table {
+width: 100%;
+border-collapse: collapse;
+}
+
+#availabilities-table th {
+background-color: #f2f2f2;
+padding: 8px;
+text-align: left;
+}
+
+#availabilities-table td {
+padding: 8px;
+}
+
+#availabilities-table tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+ul.dashboard-tabs {
+display: flex;
+justify-content: flex-end;
+margin-right: 20px;
+}
+
+ul.dashboard-tabs li {
+margin-left: 20px;
+list-style: none;
+}
+
+ul.dashboard-tabs li a {
+color: #333;
+text-decoration: none;
+padding: 10px;
+border-radius: 5px;
+background-color: #eee;
+}
+
+ul.dashboard-tabs li.active a {
+background-color: #007bff;
+color: #fff;
+}
+
+#home-btn {
+display: inline-block;
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 3px;
+position: absolute;
+top: 50%;
+right: 20px;
+transform: translateY(-50%);
+font-size: 14px;
+}
+
+.user-greeting {
+  position: absolute;
+  right: 50px;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+input[type="text"].login-input, 
+input[type="password"].login-input {
+    max-width: 400px;  /* adjust this value to your liking */
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.form-group-edit-profile {
+  max-width: 400px;  /* adjust this value to your liking */
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  box-sizing: border-box;}
+
+.input-edit-profile {
+  /* Copy properties from input[type="text"] here and modify as necessary */
+}
+

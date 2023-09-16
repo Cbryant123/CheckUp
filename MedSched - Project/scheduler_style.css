@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-bottom: 200px; /* adjust as needed */
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.schedule-view {
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-edit {
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-view {
+    order: 1;
+}
+
+.schedule-edit {
+    order: 2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #858585;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.ui-timepicker .ui-menu-item a.ui-corner-all {
+    color: rgb(69, 212, 255);
+}
+
+.ui-menu-item a:hover {
+    background-color: transparent !important;
+}

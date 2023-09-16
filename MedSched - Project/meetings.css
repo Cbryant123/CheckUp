@@ -1,0 +1,97 @@
+/* Styles for header and navigation */
+
+header {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  margin: 0;
+}
+
+
+nav ul.dashboard-tabs {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+nav ul.dashboard-tabs li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+nav ul.dashboard-tabs li a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+nav ul.dashboard-tabs li.active a {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Styles for schedule meeting form */
+.schedule-meeting .form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.schedule-meeting .form-group {
+  margin-bottom: 20px;
+}
+
+.schedule-meeting .form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.schedule-meeting .form-input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.schedule-meeting .calendar-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.schedule-meeting .button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.schedule-meeting .schedule-button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+
+.meetings-container {
+  display: flex;
+  justify-content: center;
+}
+
+.meetings-list {
+  flex: 1;
+  max-width: 20%; /* Adjust the width as desired */
+}
+
+.meetings-calendar {
+  flex: 1;
+  max-width: 70%; /* Adjust the width as desired */
+  margin-left: 20px; /* Adjust the left margin as desired */
+}
