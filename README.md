@@ -59,8 +59,7 @@ Example images of the site in use can be found in the Documentation.pdf
 
 **8. UI:** Make proper adjustments to enhance the site for the users to navigate the site and go about the website
 
-***Things I did not finish and/or would like to improve upon:*  
-**
+***Things I did not finish and/or would like to improve upon:***
 
 - The search system is not nearly as robust as I would like it to be. I couldn’t implement a filter by distance option in enough time. I also wanted to implement a javascript that showed results as you typed them. For example, if I type the letter ‘J’, I wanted to show all results of doctor’s starting with J, and for each letter added it would further filter the list.
 
