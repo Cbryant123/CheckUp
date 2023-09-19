@@ -6,7 +6,8 @@ Here is the Prompt given to me for the project:
 ![Prompt Image](https://github.com/Cbryant123/MedSched/blob/main/images/prompt.png?raw=true)
 
 Example images of the site in use can be found in the Documentation.pdf
-
+Here is a demo video:
+https://youtu.be/d8HKl9MhSDg?si=YEFHU7cuGmSozJo0
 
 **Project - Documentation**
 
